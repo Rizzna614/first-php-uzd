@@ -7,3 +7,41 @@ e) Izveidojiet failu "output.php", kurā ir koda rinda, kas terminālī izvada T
 f) Izpildiet šo failu ar "php" programmu un pārliecinaties, ka vārds ir izvadīts;
 
 2.uzd. versionēšana; paši izlemjam vai push-ot uz Github
+
+3. uzdevums: Mainīgie
+a) Izveidojiet failu "variables.php";
+b) Izveidojiet 'string' tipa mainīgo "groupName", kurā tiek glabāts tava kursa nosaukums;
+c) Izveidojiet 'number' tipa mainīgo "size", kurā tiek glabāts studentu skaits grupā;
+d) Izveidojiet 'boolean' tipa mainīgo "isActive", kura vērtība NAV patiesa;
+e) Izveidojiet konstanti "EULER", kura vērtība ir 2.718;
+f) Versionējiet 3.uzd. atsevišķā komitā;
+konstantes definē ar 'define'
+
+4. uzdevums: 'for' cikls
+a) Izveidojiet failu "for-loop.js";
+b) Izveido 'for' ciklu, kas izvada veselus skaitļus no 7 līdz 16;
+c) Versionējiet 4.uzd. atsevišķā komitā;
+
+5. uzdevums: Masīvs un 'for' cikls
+a) Izveidojiet failu "array-and-for-loop.js";
+b) Izveidot masīva (array) tipa mainīgo, kurā tiek glabāti 4 augļi;
+c) Ar 'for' cikla palīdzību izvadiet katru augli konsolē un izmantojiet masīva garumu (length), lai noteiktu cik iterācijas 'for' ciklam jāveic;
+d) Versionējiet 5.uzd. atsevišķā komitā;
+
+6.uzdevums: Nosacījumi
+a) Izveidojiet failu "conditionals.js";
+b) Izveidojiet mainīgo "personAge" ar vērtību 16;
+c) Izmantojiet nosacījumus (if..else), lai pārbaudītu vai persona ir pilngadīga, bet neizmantojiet funkciju;
+d) Versionējiet 6.uzd. atsevišķā komitā;
+
+7.uzdevums: Funkcija
+a) Izveidojiet failu "function.js";
+b) Izveidojiet funkciju "intSequence" ar diviem parametriem 'first' un 'last'. Tās uzdevums ir veikt veselu skaitļu izvadi kosolē dotajā diapazonā, ko nosaka funkcijai padotais pirmais un pēdējais skaitlis. Piemēram, izsaucot šo funkciju ar argumentiem "5" un "8", izvadei ir jābūt "5, 6, 7, 8". Skaitļi nav jāatdala ar komatu, galvenais tos katru izvadīt ar 'for' vai 'while' ciklu.
+c) Izsauciet funkciju 3 reizes ar sekojošiem argumentiem: 5 un 8, 1 un 10, 7 un 16.
+d) Versionējiet 7.uzd. atsevišķā komitā;
+
+8. uzdevums: Objekts
+a) Izveidojiet failu "object.js";
+b) Izveidojiet mainīgo, kurā glabājas objekts, kas reprezentē automašīnu ar trim atribūtiem: marku, modeli un gadu;
+c) Konsolē izvadiet automašīnas marku, izmantojot "dot notation" (sintakse ar punktu) vai "bracket notation" (sintakse ar kvadrātiekavām);
+d) Izveidojiet nosacījumu (if..else), kas pārbauda vai automašīna ir vecāka par 10 gadiem, un izdod attiecīgu paziņojumu konsolē, piem., "Auto ir vecāks par 10 gadiem" vai "Auto nav vecāks par 10 gadiem";
