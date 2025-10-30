@@ -27,3 +27,10 @@ a) Izveidojiet failu "array-and-for-loop.js";
 b) Izveidot masīva (array) tipa mainīgo, kurā tiek glabāti 4 augļi;
 c) Ar 'for' cikla palīdzību izvadiet katru augli konsolē un izmantojiet masīva garumu (length), lai noteiktu cik iterācijas 'for' ciklam jāveic;
 d) Versionējiet 5.uzd. atsevišķā komitā;
+
+6.uzdevums: Nosacījumi
+a) Izveidojiet failu "conditionals.js";
+b) Izveidojiet mainīgo "personAge" ar vērtību 16;
+c) Izmantojiet nosacījumus (if..else), lai pārbaudītu vai persona ir pilngadīga, 
+bet neizmantojiet funkciju;
+d) Versionējiet 6.uzd. atsevišķā komitā;
