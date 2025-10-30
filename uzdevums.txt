@@ -34,3 +34,14 @@ b) Izveidojiet mainīgo "personAge" ar vērtību 16;
 c) Izmantojiet nosacījumus (if..else), lai pārbaudītu vai persona ir pilngadīga, 
 bet neizmantojiet funkciju;
 d) Versionējiet 6.uzd. atsevišķā komitā;
+
+7.uzdevums: Funkcija
+a) Izveidojiet failu "function.js";
+b) Izveidojiet funkciju "intSequence" ar diviem parametriem 'first' un 'last'. 
+Tās uzdevums ir veikt veselu skaitļu izvadi kosolē dotajā diapazonā, 
+ko nosaka funkcijai padotais pirmais un pēdējais skaitlis. 
+Piemēram, izsaucot šo funkciju ar argumentiem "5" un "8", izvadei ir 
+jābūt "5, 6, 7, 8". Skaitļi nav jāatdala ar komatu, 
+galvenais tos katru izvadīt ar 'for' vai 'while' ciklu.
+c) Izsauciet funkciju 3 reizes ar sekojošiem argumentiem: 5 un 8, 1 un 10, 7 un 16.
+d) Versionējiet 7.uzd. atsevišķā komitā;
