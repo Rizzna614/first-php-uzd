@@ -45,3 +45,15 @@ jābūt "5, 6, 7, 8". Skaitļi nav jāatdala ar komatu,
 galvenais tos katru izvadīt ar 'for' vai 'while' ciklu.
 c) Izsauciet funkciju 3 reizes ar sekojošiem argumentiem: 5 un 8, 1 un 10, 7 un 16.
 d) Versionējiet 7.uzd. atsevišķā komitā;
+
+8. uzdevums: Objekts
+a) Izveidojiet failu "object.js";
+b) Izveidojiet mainīgo, kurā glabājas objekts, 
+kas reprezentē automašīnu ar trim atribūtiem: marku, modeli un gadu;
+c) Konsolē izvadiet automašīnas marku, 
+izmantojot "dot notation" (sintakse ar punktu) 
+vai "bracket notation" (sintakse ar kvadrātiekavām);
+d) Izveidojiet nosacījumu (if..else), 
+kas pārbauda vai automašīna ir vecāka par 10 gadiem, 
+un izdod attiecīgu paziņojumu konsolē, 
+piem., "Auto ir vecāks par 10 gadiem" vai "Auto nav vecāks par 10 gadiem";
