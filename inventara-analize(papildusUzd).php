@@ -34,4 +34,3 @@ for ($i = 0; $i < count($preces); $i++)
     echo $preces[$i]["nosaukums"], ", ";
   }
 };
-

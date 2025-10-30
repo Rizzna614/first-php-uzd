@@ -9,27 +9,29 @@ array("vārds" => "Gustavs", "uzvārds" => "Feldmanis", "loma" => "member", "stu
 array("vārds" => "Ieva", "uzvārds" => "Pelts", "loma" => "leader", "stundas" => 3,),
 array("vārds" => "Jolanta", "uzvārds" => "Ruksis", "loma" => "member", "stundas" => 25,),
 ];
-
 $brivpratigoStunduSkaits = 0;
 $zvaigznuBrivpratigais = [];
-
-//echo count($biedruSaraksts);
-
+echo "Līderi: ";
 for ($i = 0; $i < count($biedruSaraksts); $i++) 
 {
     //echo "sus";
     if ($biedruSaraksts[$i]["loma"] == "leader") 
     {
-        echo "Līderis: ", $biedruSaraksts[$i]["vārds"], " ", $biedruSaraksts[$i]["uzvārds"], ", ";
+        echo $biedruSaraksts[$i]["vārds"], " ", $biedruSaraksts[$i]["uzvārds"], ", ";
     };
-
     $brivpratigoStunduSkaits = $brivpratigoStunduSkaits + $biedruSaraksts[$i]["stundas"];
-
-    if ($biedruSaraksts[$i]["stundas"] >= 20 && $biedruSaraksts[$i]["loma"] != "leader") 
+    //if ($biedruSaraksts[$i]["stundas"] >= 20 && $biedruSaraksts[$i]["loma"] != "leader") 
+    //{
+        //echo "Zvaigzņu brivprātīgais: ", $biedruSaraksts[$i]["vārds"], " ", $biedruSaraksts[$i]["uzvārds"], ", ";
+    //}
+    //rakstot sita varetu visu viena for cikla, kas butu tehniski pareizi bet tad viss konsole ir samudzinats
+};
+echo "Kopējais brivprātigo stundu skaits: ", $brivpratigoStunduSkaits, "h, ";
+echo "Zvaigžņu brīvprātīgie: ";
+for ($i = 0; $i < count($biedruSaraksts); $i++)
+{
+   if ($biedruSaraksts[$i]["stundas"] >= 20 && $biedruSaraksts[$i]["loma"] != "leader") 
     {
-        echo "Zvaigzņu brivprātīgais: ", $biedruSaraksts[$i]["vārds"], " ", $biedruSaraksts[$i]["uzvārds"], ", ";
+        echo $biedruSaraksts[$i]["vārds"], " ", $biedruSaraksts[$i]["uzvārds"], ", ";
     }
 };
-
-echo "Kopējais brivprātigo stundu skaits: ", $brivpratigoStunduSkaits, "h, ";
-
