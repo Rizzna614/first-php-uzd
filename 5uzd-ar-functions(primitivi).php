@@ -45,11 +45,19 @@ echo "-SEPERATE-", "\n";
 
 function sum ($first, $last)
 {
-    $result = 0;
-    $result = $first + $last;
-    echo $result;
+    return $result = $first + $last;
 }
+$result = sum(3, 7);
+echo $result;
 
-sum (3, 7);
+//function sum ($first, $last)
+//{
+   // $result = 0;
+   // $result = $first + $last;          ----- sita es reikinaju un rezultats sanak tads pats bet augesjais risinajums ir pareizaks jo tas ir tiesi pec nosacijumiem
+    //echo $result;
+//}
+
+//sum (3, 7);
+
 
 
