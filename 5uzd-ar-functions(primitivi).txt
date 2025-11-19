@@ -1,0 +1,22 @@
+1.uzd.
+Izveidot funkciju "printStaticName" bez parametriem, kas izvada ekrānā jūsu vārdu.
+Izsauciet funkciju 2 reizes.
+2.uzd.
+Izveidojiet funkciju "printName" ar vienu parametru $name,
+kas izvada ekrānā padoto argumentu.
+Izsauciet funkciju 3 reizes ar sekojošiem argumentiem: "Anna", "Jānis" un "Antra".
+Papildiniet "printName" funkciju tā,
+lai izvades formāts būtu sekojošs: "Vārds: Anna".
+3.uzd.
+Izveidojiet funkciju "printIntegers", kas izvada ekrāna skaitļus no 1 līdz 10.
+Izvadiet katru skaitli jaunā rindā.
+4.uzd.
+Pilnveidojiet "printIntegers" funkciju tā,
+lai būtu divi parametri ($first un $last)
+ar kuriem var kontrolēt no kura līdz kuram skaitlim būs izvade.
+Izsauciet funkciju 2 reizes ar sekojošiem argumentiem: 1 un 10, 3 un 7
+5.uzd.
+Izveidojiet funkciju "sum", kas saskaita divus skaitļu un atgriež iegūto vērtību.
+Izsauciet funkciju ar argumentiem 3 un 7 un
+saglabājiet atgriezto vērtību mainīgajā $result.
+Izvadiet $results vērtību uz ekrāna ar 'echo'.
